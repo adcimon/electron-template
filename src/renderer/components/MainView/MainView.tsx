@@ -45,7 +45,7 @@ export class MainView extends React.Component<IMainViewProps, IMainViewState>
 					timeout={500}
 					classNames='fade'
 					onExited={() => this.handleExited()}>
-						<div className='flex-1 h-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-xl bg-gray-800 border-1 border-gray-700'>
+						<div className='flex-1 h-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-xl bg-base-800 border-1 border-base-700'>
 							<div className='flex flex-col overflow-hidden md:flex-row'>
 
 								<div className='flex items-center justify-center p-6 sm:p-12 md:w-1/2 overflow-hidden'>

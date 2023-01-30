@@ -16,10 +16,10 @@ export class Toggle extends React.Component<IToggleProps, IToggleState>
 		return (
 			<>
 				<div className='flex mt-6 text-sm'>
-					<label className='flex items-center text-gray-400'>
+					<label className='flex items-center text-base-400'>
 						<input
 							type='checkbox'
-							className='text-purple-600 form-checkbox focus:border-purple-400 focus:outline-none focus:shadow-outline-gray'/>
+							className='text-primary-600 focus:border-primary-400 focus:outline-none focus:shadow-outline-primary-600 form-checkbox'/>
 						<span
 							className='ml-2'>
 							{this.props.children}

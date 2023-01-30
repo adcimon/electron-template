@@ -38,7 +38,7 @@ export class AppView extends React.Component<IAppViewProps, IAppViewState>
 
 		return (
 			<>
-				<div className='flex items-center min-h-screen p-6 bg-gray-900'>
+				<div className='flex items-center min-h-screen p-6 bg-base-900'>
 					{ view() }
 				</div>
 			</>

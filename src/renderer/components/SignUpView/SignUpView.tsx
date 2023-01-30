@@ -56,7 +56,7 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 					timeout={500}
 					classNames='fade'
 					onExited={() => this.handleExited()}>
-						<div className='flex-1 h-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-xl bg-gray-800 border-1 border-gray-700'>
+						<div className='flex-1 h-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-xl bg-base-800 border-1 border-base-700'>
 							<div className='flex flex-col overflow-hidden md:flex-row'>
 
 								<div className='h-32 md:h-auto md:w-1/2'>
@@ -67,7 +67,7 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 									<div className='w-full'>
 
 										<h1
-											className='mb-4 text-xl font-semibold text-gray-200'>
+											className='mb-4 text-xl font-semibold text-base-200'>
 											Create account
 										</h1>
 
@@ -84,7 +84,7 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 										<p
 											className='mt-4'>
 											<a
-												className='text-sm font-medium text-purple-400 hover:underline'
+												className='text-sm font-medium text-secondary-400 hover:underline'
 												onClick={this.handleClickSignIn}
 												href='#'>
 												Already have an account? Sign In

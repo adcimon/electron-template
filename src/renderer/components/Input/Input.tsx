@@ -20,11 +20,11 @@ export class Input extends React.Component<IInputProps, IInputState>
 			<>
 				<div className={this.props.className + ' inline-block'}>
 					<label
-						className='text-sm text-gray-400'>
+						className='text-sm text-base-400'>
 						{this.props.children}
 					</label>
 					<input
-						className='block w-full mt-1 text-sm border-gray-600 bg-gray-700 focus:border-purple-400 focus:outline-none text-gray-300 focus:shadow-outline-gray form-input'
+						className='block w-full mt-1 text-sm text-base-300 bg-base-700 border-base-600 hover:border-primary-500 focus:border-primary-600 focus:outline-none focus:shadow-outline-primary-600 form-input'
 						type={this.props.type}
 						placeholder={this.props.placeholder}/>
 				</div>
