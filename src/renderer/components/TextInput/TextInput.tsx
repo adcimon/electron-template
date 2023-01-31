@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface IInputProps
+interface ITextInputProps
 {
 	type?: string;
 	placeholder?: string;
@@ -8,11 +8,11 @@ interface IInputProps
 	children?: React.ReactNode;
 }
 
-interface IInputState
+interface ITextInputState
 {
 }
 
-export class Input extends React.Component<IInputProps, IInputState>
+export class TextInput extends React.Component<ITextInputProps, ITextInputState>
 {
 	public render = () =>
 	{

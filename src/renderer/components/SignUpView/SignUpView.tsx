@@ -3,7 +3,7 @@ import { CSSTransition } from 'react-transition-group';
 
 import { ViewType, AppStateType } from '../../AppState';
 import { Button } from '../Button/Button';
-import { Input } from '../Input/Input';
+import { TextInput } from '../TextInput/TextInput';
 import { Checkbox } from '../Checkbox/Checkbox';
 
 import '../../styles/FadeAnimation.css';
@@ -71,9 +71,9 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 											Create account
 										</h1>
 
-										<Input className='w-full'>Email</Input>
-										<Input type='password' className='w-full mt-4'>Password</Input>
-										<Input type='password' className='w-full mt-4'>Confirm Password</Input>
+										<TextInput className='w-full'>Email</TextInput>
+										<TextInput type='password' className='w-full mt-4'>Password</TextInput>
+										<TextInput type='password' className='w-full mt-4'>Confirm Password</TextInput>
 
 										<Checkbox>
 											I agree to the <span className='underline'>privacy policy</span>

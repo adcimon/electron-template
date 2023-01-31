@@ -3,7 +3,7 @@ import { CSSTransition } from 'react-transition-group';
 
 import { ViewType, AppStateType } from '../../AppState';
 import { Button } from '../Button/Button';
-import { Input } from '../Input/Input';
+import { TextInput } from '../TextInput/TextInput';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
@@ -82,8 +82,8 @@ export class SignInView extends React.Component<ISignInViewProps, ISignInViewSta
 											Electron Template
 										</h1>
 
-										<Input className='w-full'>Email</Input>
-										<Input type='password' className='w-full mt-4'>Password</Input>
+										<TextInput className='w-full'>Email</TextInput>
+										<TextInput type='password' className='w-full mt-4'>Password</TextInput>
 										<Button
 											className='w-full mt-4'
 											onClick={this.handleClickSignIn}>

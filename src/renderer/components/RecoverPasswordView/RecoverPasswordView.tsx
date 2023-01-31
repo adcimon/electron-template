@@ -3,7 +3,7 @@ import { CSSTransition } from 'react-transition-group';
 
 import { ViewType, AppStateType } from '../../AppState';
 import { Button } from '../Button/Button';
-import { Input } from '../Input/Input';
+import { TextInput } from '../TextInput/TextInput';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
@@ -65,7 +65,7 @@ export class RecoverPasswordView extends React.Component<IRecoverPasswordViewPro
 								<div className='flex items-center justify-center p-6 sm:p-12 md:w-1/2 overflow-hidden'>
 									<div className='w-full'>
 
-										<Input className='w-full'>Email</Input>
+										<TextInput className='w-full'>Email</TextInput>
 
 										<Button className='w-full mt-4'>Recover password</Button>
 
