@@ -1,15 +1,15 @@
 import React from 'react';
 
-interface IToggleProps
+interface ICheckboxProps
 {
 	children?: React.ReactNode;
 }
 
-interface IToggleState
+interface ICheckboxState
 {
 }
 
-export class Toggle extends React.Component<IToggleProps, IToggleState>
+export class Checkbox extends React.Component<ICheckboxProps, ICheckboxState>
 {
 	public render = () =>
 	{
