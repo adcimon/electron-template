@@ -18,7 +18,7 @@ export class TextInput extends React.Component<ITextInputProps, ITextInputState>
 	{
 		return (
 			<>
-				<div className={this.props.className + ' inline-block'}>
+				<div className={this.props.className + ' block'}>
 					<label
 						className='text-sm text-base-400'>
 						{this.props.children}
