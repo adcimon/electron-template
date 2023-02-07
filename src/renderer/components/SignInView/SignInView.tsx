@@ -2,8 +2,8 @@ import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 import { ViewType, AppStateType } from '../../AppState';
-import { Button } from '../Button/Button';
 import { TextInput } from '../TextInput/TextInput';
+import { Button } from '../Button/Button';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
@@ -82,28 +82,21 @@ export class SignInView extends React.Component<ISignInViewProps, ISignInViewSta
 											Electron Template
 										</h1>
 
-										<TextInput className='w-full'>Email</TextInput>
-										<TextInput type='password' className='w-full mt-4'>Password</TextInput>
-										<Button
-											className='w-full mt-4'
-											onClick={this.handleClickSignIn}>
-											Sign In
-										</Button>
+										<TextInput label='Email' className='w-full'/>
+										<TextInput label='Password' type='password' className='w-full mt-4'/>
+
+										<Button label='Sign In' onClick={this.handleClickSignIn} className='w-full mt-4'/>
 
 										<hr className='my-8'></hr>
 
-										<Button
-											className='w-full mt-4'
-											onClick={this.handleClickSignUp}>
-											Create an account
-										</Button>
+										<Button label='Create an account' onClick={this.handleClickSignUp} className='w-full mt-4'/>
 
 										<p
 											className='mt-4'>
 											<a
-												className='text-sm font-medium text-secondary-400 hover:underline'
+												href='#'
 												onClick={this.handleClickRecoverPassword}
-												href='#'>
+												className='text-sm font-medium text-secondary-400 hover:underline'>
 												Forgot your password?
 											</a>
 										</p>

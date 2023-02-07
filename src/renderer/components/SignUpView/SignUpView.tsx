@@ -71,22 +71,20 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 											Create account
 										</h1>
 
-										<TextInput className='w-full'>Email</TextInput>
-										<TextInput type='password' className='w-full mt-4'>Password</TextInput>
-										<TextInput type='password' className='w-full mt-4'>Confirm Password</TextInput>
+										<TextInput label='Email' className='w-full'/>
+										<TextInput label='Password' type='password' className='w-full mt-4'/>
+										<TextInput label='Confirm Password' type='password' className='w-full mt-4'/>
 
-										<Checkbox>
-											I agree to the <span className='underline'>privacy policy</span>
-										</Checkbox>
+										<Checkbox label={<>I agree to the <span className='underline'>privacy policy</span></>}/>
 
-										<Button className='w-full mt-4'>Create account</Button>
+										<Button label='Create account' className='w-full mt-4'/>
 
 										<p
 											className='mt-4'>
 											<a
-												className='text-sm font-medium text-secondary-400 hover:underline'
+												href='#'
 												onClick={this.handleClickSignIn}
-												href='#'>
+												className='text-sm font-medium text-secondary-400 hover:underline'>
 												Already have an account? Sign In
 											</a>
 										</p>
