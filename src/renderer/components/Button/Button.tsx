@@ -2,7 +2,7 @@ import React from 'react';
 
 interface IButtonProps
 {
-	label?: string;
+	label?: string | React.ReactNode;
 	onClick?: () => void;
 	className?: string;
 }
