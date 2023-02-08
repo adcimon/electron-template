@@ -5,6 +5,7 @@ interface IRadioButtonProps
 	label?: string | React.ReactNode;
 	value?: string | number | readonly string[] | undefined;
 	onChange?: () => void;
+	className?: string;
 }
 
 interface IRadioButtonState
@@ -18,7 +19,7 @@ export class RadioButton extends React.Component<IRadioButtonProps, IRadioButton
 		return (
 			<>
 				<label
-					className='inline-flex items-center m-1 text-base-400'>
+					className={this.props.className + ' inline-flex items-center m-1 text-base-400'}>
 					<input
 						type='radio'
 						value={this.props.value}
