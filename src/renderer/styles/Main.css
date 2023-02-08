@@ -396,19 +396,6 @@ input::placeholder {
 	background-repeat: no-repeat;
 }
 
-.form-multiselect {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	background-color: #fff;
-	border-color: #e2e8f0;
-	border-width: 1px;
-	border-radius: .25rem;
-	padding: .5rem .75rem;
-	font-size: 1rem;
-	line-height: 1.5;
-}
-
 .checkbox:checked {
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4a1 1 0 00-1.414-1.414L7 8.586 5.707 7.293z'/%3E%3C/svg%3E");
 	background-color: currentColor;
