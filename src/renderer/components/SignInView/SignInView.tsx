@@ -4,6 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 import { ViewType, AppStateType } from '../../AppState';
 import { TextInput } from '../TextInput/TextInput';
 import { Button } from '../Button/Button';
+import { Link } from '../Link/Link';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
@@ -93,12 +94,7 @@ export class SignInView extends React.Component<ISignInViewProps, ISignInViewSta
 
 										<p
 											className='mt-4'>
-											<a
-												href='#'
-												onClick={this.handleClickRecoverPassword}
-												className='text-sm font-medium text-secondary-400 hover:underline'>
-												Forgot your password?
-											</a>
+											<Link label={'Forgot your password?'} ref='#' onClick={this.handleClickRecoverPassword}/>
 										</p>
 
 									</div>

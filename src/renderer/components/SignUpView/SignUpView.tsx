@@ -5,6 +5,7 @@ import { ViewType, AppStateType } from '../../AppState';
 import { Button } from '../Button/Button';
 import { TextInput } from '../TextInput/TextInput';
 import { Checkbox } from '../Checkbox/Checkbox';
+import { Link } from '../Link/Link';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
@@ -81,12 +82,7 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 
 										<p
 											className='mt-4'>
-											<a
-												href='#'
-												onClick={this.handleClickSignIn}
-												className='text-sm font-medium text-secondary-400 hover:underline'>
-												Already have an account? Sign In
-											</a>
+											<Link label={'Already have an account? Sign In'} ref='#' onClick={this.handleClickSignIn}/>
 										</p>
 
 									</div>
