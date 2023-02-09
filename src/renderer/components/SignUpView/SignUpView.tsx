@@ -2,10 +2,10 @@ import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 import { ViewType, AppStateType } from '../../AppState';
-import { Button } from '../Button/Button';
-import { TextInput } from '../TextInput/TextInput';
-import { Checkbox } from '../Checkbox/Checkbox';
-import { Link } from '../Link/Link';
+import { Button } from '../base/Button/Button';
+import { TextInput } from '../base/TextInput/TextInput';
+import { Checkbox } from '../base/Checkbox/Checkbox';
+import { Link } from '../base/Link/Link';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
