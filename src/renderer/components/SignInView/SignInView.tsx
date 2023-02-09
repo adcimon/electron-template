@@ -2,7 +2,7 @@ import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 import { ViewType, AppStateType } from '../../AppState';
-import { TextInput, TextInputKind } from '../base/TextInput/TextInput';
+import { TextInput } from '../base/TextInput/TextInput';
 import { Button } from '../base/Button/Button';
 import { Link } from '../base/Link/Link';
 
@@ -84,7 +84,7 @@ export class SignInView extends React.Component<ISignInViewProps, ISignInViewSta
 										</h1>
 
 										<TextInput label='Email' className='w-full'/>
-										<TextInput label='Password' type='password' className='w-full mt-2'/>
+										<TextInput label='Password' type='password' tip='' className='w-full mt-2'/>
 
 										<Button label='Sign In' onClick={this.handleClickSignIn} className='w-full mt-4'/>
 

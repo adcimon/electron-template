@@ -77,7 +77,7 @@ export class TextInput extends React.Component<ITextInputProps, ITextInputState>
 						type={this.props.type}
 						placeholder={this.props.placeholder}/>
 					<span
-						className={`block h-4 m-1 text-xs ${tipTextColor}`}>
+						className={`block ${(typeof this.props.tip === 'string') ? 'h-4': ''} m-1 text-xs ${tipTextColor}`}>
 						{this.props.tip}
 					</span>
 				</label>

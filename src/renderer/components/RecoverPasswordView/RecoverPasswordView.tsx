@@ -4,6 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 import { ViewType, AppStateType } from '../../AppState';
 import { Button } from '../base/Button/Button';
 import { TextInput } from '../base/TextInput/TextInput';
+import { Link } from '../base/Link/Link';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
@@ -65,18 +66,13 @@ export class RecoverPasswordView extends React.Component<IRecoverPasswordViewPro
 								<div className='flex items-center justify-center p-6 sm:p-12 md:w-1/2 overflow-hidden'>
 									<div className='w-full'>
 
-										<TextInput label='Email' className='w-full'/>
+										<TextInput label='Email' tip='' className='w-full'/>
 
 										<Button label='Recover password' className='w-full mt-4'/>
 
 										<p
 											className='mt-4'>
-											<a
-												className='text-sm font-medium text-secondary-400 hover:underline'
-												onClick={this.handleClickSignIn}
-												href='#'>
-												Back to Sign In
-											</a>
+											<Link label={'Back to Sign In'} ref='#' onClick={this.handleClickSignIn}/>
 										</p>
 
 									</div>

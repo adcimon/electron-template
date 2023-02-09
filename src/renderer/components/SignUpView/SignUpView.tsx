@@ -72,11 +72,11 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 											Create account
 										</h1>
 
-										<TextInput label='Email' className='w-full'/>
-										<TextInput label='Password' type='password' className='w-full mt-4'/>
-										<TextInput label='Confirm Password' type='password' className='w-full mt-4'/>
+										<TextInput label='Email' tip='' className='w-full'/>
+										<TextInput label='Password' type='password' className='w-full mt-2'/>
+										<TextInput label='Confirm Password' type='password' tip='' className='w-full mt-2'/>
 
-										<Checkbox label={<>I agree to the <span className='underline'>privacy policy</span></>} className='mt-4'/>
+										<Checkbox label={<>I agree to the <span className='underline'>privacy policy</span></>}/>
 
 										<Button label='Create account' className='w-full mt-4'/>
 

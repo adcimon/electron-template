@@ -100,12 +100,12 @@ export class TextArea extends React.Component<ITextAreaProps, ITextAreaState>
 						{this.props.label}
 					</span>
 					<textarea
-						className={`${this.props.className} block mt-1 px-2 py-2 text-sm text-base-300 bg-base-700 border-1 rounded ${borderColor} ${borderHoverColor} ${borderFocusColor} focus:outline-none ${shadowOutlineColor} transition-colors duration-150 ${resize} textarea`}
+						className={`block w-full mt-1 px-2 py-2 text-sm text-base-300 bg-base-700 border-1 rounded ${borderColor} ${borderHoverColor} ${borderFocusColor} focus:outline-none ${shadowOutlineColor} transition-colors duration-150 ${resize} textarea`}
 						rows={this.props.rows || 3}
 						placeholder={this.props.placeholder}>
 					</textarea>
 					<span
-						className={`block h-4 m-1 text-xs ${tipTextColor}`}>
+						className={`block ${(typeof this.props.tip === 'string') ? 'h-4': ''} m-1 text-xs ${tipTextColor}`}>
 						{this.props.tip}
 					</span>
 				</label>
