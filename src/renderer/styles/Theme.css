@@ -64,63 +64,63 @@
 /* Text */
 
 .text-opacity-0 {
-	--text-opacity: 0;
+	--text-opacity: 0 !important;
 }
 
 .text-opacity-5 {
-	--text-opacity: 0.05;
+	--text-opacity: 0.05 !important;
 }
 
 .text-opacity-10 {
-	--text-opacity: 0.1;
+	--text-opacity: 0.1 !important;
 }
 
 .text-opacity-20 {
-	--text-opacity: 0.2;
+	--text-opacity: 0.2 !important;
 }
 
 .text-opacity-25 {
-	--text-opacity: 0.25;
+	--text-opacity: 0.25 !important;
 }
 
 .text-opacity-30 {
-	--text-opacity: 0.3;
+	--text-opacity: 0.3 !important;
 }
 
 .text-opacity-40 {
-	--text-opacity: 0.4;
+	--text-opacity: 0.4 !important;
 }
 
 .text-opacity-50 {
-	--text-opacity: 0.5;
+	--text-opacity: 0.5 !important;
 }
 
 .text-opacity-60 {
-	--text-opacity: 0.6;
+	--text-opacity: 0.6 !important;
 }
 
 .text-opacity-70 {
-	--text-opacity: 0.7;
+	--text-opacity: 0.7 !important;
 }
 
 .text-opacity-75 {
-	--text-opacity: 0.75;
+	--text-opacity: 0.75 !important;
 }
 
 .text-opacity-80 {
-	--text-opacity: 0.8;
+	--text-opacity: 0.8 !important;
 }
 
 .text-opacity-90 {
-	--text-opacity: 0.9;
+	--text-opacity: 0.9 !important;
 }
 
 .text-opacity-95 {
-	--text-opacity: 0.95;
+	--text-opacity: 0.95 !important;
 }
 
 .text-opacity-100 {
-	--text-opacity: 1;
+	--text-opacity: 1 !important;
 }
 
 .text-white {
@@ -1336,63 +1336,63 @@
 /* Background */
 
 .bg-opacity-0 {
-	--bg-opacity: 0;
+	--bg-opacity: 0 !important;
 }
 
 .bg-opacity-5 {
-	--bg-opacity: 0.05;
+	--bg-opacity: 0.05 !important;
 }
 
 .bg-opacity-10 {
-	--bg-opacity: 0.1;
+	--bg-opacity: 0.1 !important;
 }
 
 .bg-opacity-20 {
-	--bg-opacity: 0.2;
+	--bg-opacity: 0.2 !important;
 }
 
 .bg-opacity-25 {
-	--bg-opacity: 0.25;
+	--bg-opacity: 0.25 !important;
 }
 
 .bg-opacity-30 {
-	--bg-opacity: 0.3;
+	--bg-opacity: 0.3 !important;
 }
 
 .bg-opacity-40 {
-	--bg-opacity: 0.4;
+	--bg-opacity: 0.4 !important;
 }
 
 .bg-opacity-50 {
-	--bg-opacity: 0.5;
+	--bg-opacity: 0.5 !important;
 }
 
 .bg-opacity-60 {
-	--bg-opacity: 0.6;
+	--bg-opacity: 0.6 !important;
 }
 
 .bg-opacity-70 {
-	--bg-opacity: 0.7;
+	--bg-opacity: 0.7 !important;
 }
 
 .bg-opacity-75 {
-	--bg-opacity: 0.75;
+	--bg-opacity: 0.75 !important;
 }
 
 .bg-opacity-80 {
-	--bg-opacity: 0.8;
+	--bg-opacity: 0.8 !important;
 }
 
 .bg-opacity-90 {
-	--bg-opacity: 0.9;
+	--bg-opacity: 0.9 !important;
 }
 
 .bg-opacity-95 {
-	--bg-opacity: 0.95;
+	--bg-opacity: 0.95 !important;
 }
 
 .bg-opacity-100 {
-	--bg-opacity: 1;
+	--bg-opacity: 1 !important;
 }
 
 .bg-white {
@@ -2608,63 +2608,63 @@
 /* Border */
 
 .border-opacity-0 {
-	--border-opacity: 0;
+	--border-opacity: 0 !important;
 }
 
 .border-opacity-5 {
-	--border-opacity: 0.05;
+	--border-opacity: 0.05 !important;
 }
 
 .border-opacity-10 {
-	--border-opacity: 0.1;
+	--border-opacity: 0.1 !important;
 }
 
 .border-opacity-20 {
-	--border-opacity: 0.2;
+	--border-opacity: 0.2 !important;
 }
 
 .border-opacity-25 {
-	--border-opacity: 0.25;
+	--border-opacity: 0.25 !important;
 }
 
 .border-opacity-30 {
-	--border-opacity: 0.3;
+	--border-opacity: 0.3 !important;
 }
 
 .border-opacity-40 {
-	--border-opacity: 0.4;
+	--border-opacity: 0.4 !important;
 }
 
 .border-opacity-50 {
-	--border-opacity: 0.5;
+	--border-opacity: 0.5 !important;
 }
 
 .border-opacity-60 {
-	--border-opacity: 0.6;
+	--border-opacity: 0.6 !important;
 }
 
 .border-opacity-70 {
-	--border-opacity: 0.7;
+	--border-opacity: 0.7 !important;
 }
 
 .border-opacity-75 {
-	--border-opacity: 0.75;
+	--border-opacity: 0.75 !important;
 }
 
 .border-opacity-80 {
-	--border-opacity: 0.8;
+	--border-opacity: 0.8 !important;
 }
 
 .border-opacity-90 {
-	--border-opacity: 0.9;
+	--border-opacity: 0.9 !important;
 }
 
 .border-opacity-95 {
-	--border-opacity: 0.95;
+	--border-opacity: 0.95 !important;
 }
 
 .border-opacity-100 {
-	--border-opacity: 1;
+	--border-opacity: 1 !important;
 }
 
 .border-white {
@@ -3880,63 +3880,63 @@
 /* Shadow */
 
 .shadow-opacity-0 {
-	--shadow-opacity: 0;
+	--shadow-opacity: 0 !important;
 }
 
 .shadow-opacity-5 {
-	--shadow-opacity: 0.05;
+	--shadow-opacity: 0.05 !important;
 }
 
 .shadow-opacity-10 {
-	--shadow-opacity: 0.1;
+	--shadow-opacity: 0.1 !important;
 }
 
 .shadow-opacity-20 {
-	--shadow-opacity: 0.2;
+	--shadow-opacity: 0.2 !important;
 }
 
 .shadow-opacity-25 {
-	--shadow-opacity: 0.25;
+	--shadow-opacity: 0.25 !important;
 }
 
 .shadow-opacity-30 {
-	--shadow-opacity: 0.3;
+	--shadow-opacity: 0.3 !important;
 }
 
 .shadow-opacity-40 {
-	--shadow-opacity: 0.4;
+	--shadow-opacity: 0.4 !important;
 }
 
 .shadow-opacity-50 {
-	--shadow-opacity: 0.5;
+	--shadow-opacity: 0.5 !important;
 }
 
 .shadow-opacity-60 {
-	--shadow-opacity: 0.6;
+	--shadow-opacity: 0.6 !important;
 }
 
 .shadow-opacity-70 {
-	--shadow-opacity: 0.7;
+	--shadow-opacity: 0.7 !important;
 }
 
 .shadow-opacity-75 {
-	--shadow-opacity: 0.75;
+	--shadow-opacity: 0.75 !important;
 }
 
 .shadow-opacity-80 {
-	--shadow-opacity: 0.8;
+	--shadow-opacity: 0.8 !important;
 }
 
 .shadow-opacity-90 {
-	--shadow-opacity: 0.9;
+	--shadow-opacity: 0.9 !important;
 }
 
 .shadow-opacity-95 {
-	--shadow-opacity: 0.95;
+	--shadow-opacity: 0.95 !important;
 }
 
 .shadow-opacity-100 {
-	--shadow-opacity: 1;
+	--shadow-opacity: 1 !important;
 }
 
 .focus\:shadow-outline-base-50:focus {
