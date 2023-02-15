@@ -5,7 +5,6 @@ import { ViewType, AppStateType } from '../../AppState';
 import { TextInput } from '../base/TextInput/TextInput';
 import { Button } from '../base/Button/Button';
 import { Link } from '../base/Link/Link';
-import { Modal } from '../base/Modal/Modal';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
@@ -69,8 +68,8 @@ export class SignInView extends React.Component<ISignInViewProps, ISignInViewSta
 					timeout={500}
 					classNames='fade'
 					onExited={() => this.handleExited()}>
-						<div className='flex-1 h-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-xl bg-base-800 border-1 border-base-700'>
-							<div className='flex flex-col overflow-hidden md:flex-row'>
+						<div className='flex-1 h-full max-w-4xl mx-auto bg-base-800 border-1 rounded-lg border-base-700 shadow-xl overflow-hidden'>
+							<div className='flex flex-col md:flex-row overflow-hidden'>
 								<div className='h-32 md:h-auto md:w-1/2'>
 									<img className='object-cover w-full h-full' src={image}/>
 								</div>
@@ -99,7 +98,6 @@ export class SignInView extends React.Component<ISignInViewProps, ISignInViewSta
 
 									</div>
 								</div>
-								{/* <Modal></Modal> */}
 							</div>
 						</div>
 				</CSSTransition>
