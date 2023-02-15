@@ -2,9 +2,9 @@ import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 import { ViewType, AppStateType } from '../../AppState';
-import { Button } from '../base/Button/Button';
-import { TextInput } from '../base/TextInput/TextInput';
-import { Link } from '../base/Link/Link';
+import { Button } from '../Core/Button/Button';
+import { TextInput } from '../Core/TextInput/TextInput';
+import { Link } from '../Core/Link/Link';
 
 import '../../styles/FadeAnimation.css';
 import image from '../../../../assets/images/earth_computer.jpg';
