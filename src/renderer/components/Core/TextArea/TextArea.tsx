@@ -1,6 +1,6 @@
 import React from 'react';
 
-export enum TextAreaKind
+export enum TextAreaVariant
 {
 	Info,
 	Warning,
@@ -22,7 +22,7 @@ interface ITextAreaProps
 	rows?: number;
 	placeholder?: string;
 	tip?: string;
-	kind?: TextAreaKind;
+	variant?: TextAreaVariant;
 	resize?: TextAreaResize;
 	className?: string;
 }
@@ -40,30 +40,31 @@ export class TextArea extends React.Component<ITextAreaProps, ITextAreaState>
 		let borderFocusColor: string = '';
 		let shadowOutlineColor: string = '';
 		let tipTextColor: string = '';
-		switch( this.props.kind )
+
+		switch( this.props.variant )
 		{
-			case TextAreaKind.Warning:
+			case TextAreaVariant.Warning:
 				borderColor = 'border-yellow-500';
 				borderHoverColor = 'hover:border-yellow-400';
 				borderFocusColor = 'focus:border-yellow-500';
 				shadowOutlineColor = 'focus:shadow-outline-yellow-500';
 				tipTextColor = 'text-yellow-500';
 				break;
-			case TextAreaKind.Valid:
+			case TextAreaVariant.Valid:
 				borderColor = 'border-green-700';
 				borderHoverColor = 'hover:border-green-600';
 				borderFocusColor = 'focus:border-green-700';
 				shadowOutlineColor = 'focus:shadow-outline-green-700';
 				tipTextColor = 'text-green-500';
 				break;
-			case TextAreaKind.Invalid:
+			case TextAreaVariant.Invalid:
 				borderColor = 'border-red-700';
 				borderHoverColor = 'hover:border-red-600';
 				borderFocusColor = 'focus:border-red-700';
 				shadowOutlineColor = 'focus:shadow-outline-red-700';
 				tipTextColor = 'text-red-500';
 				break;
-			case TextAreaKind.Info:
+			case TextAreaVariant.Info:
 			default:
 				borderColor = 'border-base-600';
 				borderHoverColor = 'hover:border-primary-500';

@@ -1,11 +1,11 @@
 import React from 'react';
 
-export enum TextInputKind
+export enum TextInputVariant
 {
 	Info,
+	Success,
 	Warning,
-	Valid,
-	Invalid
+	Error
 }
 
 interface ITextInputProps
@@ -14,7 +14,7 @@ interface ITextInputProps
 	type?: string;
 	placeholder?: string;
 	tip?: string;
-	kind?: TextInputKind;
+	variant?: TextInputVariant;
 	className?: string;
 }
 
@@ -31,30 +31,31 @@ export class TextInput extends React.Component<ITextInputProps, ITextInputState>
 		let borderFocusColor: string = '';
 		let shadowOutlineColor: string = '';
 		let tipTextColor: string = '';
-		switch( this.props.kind )
+
+		switch( this.props.variant )
 		{
-			case TextInputKind.Warning:
-				borderColor = 'border-yellow-500';
-				borderHoverColor = 'hover:border-yellow-400';
-				borderFocusColor = 'focus:border-yellow-500';
-				shadowOutlineColor = 'focus:shadow-outline-yellow-500';
-				tipTextColor = 'text-yellow-500';
-				break;
-			case TextInputKind.Valid:
+			case TextInputVariant.Success:
 				borderColor = 'border-green-700';
 				borderHoverColor = 'hover:border-green-600';
 				borderFocusColor = 'focus:border-green-700';
 				shadowOutlineColor = 'focus:shadow-outline-green-700';
 				tipTextColor = 'text-green-500';
 				break;
-			case TextInputKind.Invalid:
+			case TextInputVariant.Warning:
+				borderColor = 'border-yellow-500';
+				borderHoverColor = 'hover:border-yellow-400';
+				borderFocusColor = 'focus:border-yellow-500';
+				shadowOutlineColor = 'focus:shadow-outline-yellow-500';
+				tipTextColor = 'text-yellow-500';
+				break;
+			case TextInputVariant.Error:
 				borderColor = 'border-red-700';
 				borderHoverColor = 'hover:border-red-600';
 				borderFocusColor = 'focus:border-red-700';
 				shadowOutlineColor = 'focus:shadow-outline-red-700';
 				tipTextColor = 'text-red-500';
 				break;
-			case TextInputKind.Info:
+			case TextInputVariant.Info:
 			default:
 				borderColor = 'border-base-600';
 				borderHoverColor = 'hover:border-primary-500';
