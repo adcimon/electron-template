@@ -8,11 +8,7 @@ interface ILinkProps
 	className?: string;
 }
 
-interface ILinkState
-{
-}
-
-export class Link extends React.Component<ILinkProps, ILinkState>
+export class Link extends React.Component<ILinkProps>
 {
 	public render = () =>
 	{

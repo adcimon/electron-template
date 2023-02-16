@@ -16,11 +16,7 @@ interface IButtonProps
 	className?: string;
 }
 
-interface IButtonState
-{
-}
-
-export class Button extends React.Component<IButtonProps, IButtonState>
+export class Button extends React.Component<IButtonProps>
 {
 	public render = () =>
 	{

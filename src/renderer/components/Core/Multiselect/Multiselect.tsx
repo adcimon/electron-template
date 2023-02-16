@@ -9,11 +9,7 @@ interface IMultiselectProps
 	children?: React.ReactNode;
 }
 
-interface IMultiselectState
-{
-}
-
-export class Multiselect extends React.Component<IMultiselectProps, IMultiselectState>
+export class Multiselect extends React.Component<IMultiselectProps>
 {
 	public render = () =>
 	{

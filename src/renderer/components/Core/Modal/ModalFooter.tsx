@@ -5,11 +5,7 @@ interface IModalFooterProps
 	children?: React.ReactNode;
 }
 
-interface IModalFooterState
-{
-}
-
-export class ModalFooter extends React.Component<IModalFooterProps, IModalFooterState>
+export class ModalFooter extends React.Component<IModalFooterProps>
 {
 	public render = () =>
 	{

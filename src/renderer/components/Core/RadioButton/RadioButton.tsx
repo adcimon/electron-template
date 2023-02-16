@@ -8,11 +8,7 @@ interface IRadioButtonProps
 	className?: string;
 }
 
-interface IRadioButtonState
-{
-}
-
-export class RadioButton extends React.Component<IRadioButtonProps, IRadioButtonState>
+export class RadioButton extends React.Component<IRadioButtonProps>
 {
 	public render = () =>
 	{

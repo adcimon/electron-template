@@ -5,11 +5,7 @@ interface IModalHeaderProps
 	children?: React.ReactNode;
 }
 
-interface IModalHeaderState
-{
-}
-
-export class ModalHeader extends React.Component<IModalHeaderProps, IModalHeaderState>
+export class ModalHeader extends React.Component<IModalHeaderProps>
 {
 	public render = () =>
 	{

@@ -1,15 +1,11 @@
 import React from 'react';
 
-interface IModalContentProps
+interface IModalBodyProps
 {
 	children?: React.ReactNode;
 }
 
-interface IModalContentState
-{
-}
-
-export class ModalContent extends React.Component<IModalContentProps, IModalContentState>
+export class ModalBody extends React.Component<IModalBodyProps>
 {
 	public render = () =>
 	{

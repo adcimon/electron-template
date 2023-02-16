@@ -9,11 +9,7 @@ interface ISelectProps
 	children?: React.ReactNode;
 }
 
-interface ISelectState
-{
-}
-
-export class Select extends React.Component<ISelectProps, ISelectState>
+export class Select extends React.Component<ISelectProps>
 {
 	public render = () =>
 	{

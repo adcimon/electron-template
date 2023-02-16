@@ -27,11 +27,7 @@ interface ITextAreaProps
 	className?: string;
 }
 
-interface ITextAreaState
-{
-}
-
-export class TextArea extends React.Component<ITextAreaProps, ITextAreaState>
+export class TextArea extends React.Component<ITextAreaProps>
 {
 	public render = () =>
 	{

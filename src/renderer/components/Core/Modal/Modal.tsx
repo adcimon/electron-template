@@ -6,11 +6,7 @@ interface IModalProps
 	children?: React.ReactNode;
 }
 
-interface IModalState
-{
-}
-
-export class Modal extends React.Component<IModalProps, IModalState>
+export class Modal extends React.Component<IModalProps>
 {
 	public render = () =>
 	{

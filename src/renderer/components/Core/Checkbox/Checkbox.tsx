@@ -8,11 +8,7 @@ interface ICheckboxProps
 	className?: string;
 }
 
-interface ICheckboxState
-{
-}
-
-export class Checkbox extends React.Component<ICheckboxProps, ICheckboxState>
+export class Checkbox extends React.Component<ICheckboxProps>
 {
 	public render = () =>
 	{

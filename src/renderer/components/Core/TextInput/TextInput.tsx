@@ -18,11 +18,7 @@ interface ITextInputProps
 	className?: string;
 }
 
-interface ITextInputState
-{
-}
-
-export class TextInput extends React.Component<ITextInputProps, ITextInputState>
+export class TextInput extends React.Component<ITextInputProps>
 {
 	public render = () =>
 	{
