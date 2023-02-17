@@ -16,11 +16,7 @@ interface IAppViewProps
 	setSessionState: (state: SessionStateType) => void;
 }
 
-interface IAppViewState
-{
-}
-
-export class AppView extends React.Component<IAppViewProps, IAppViewState>
+export class AppView extends React.Component<IAppViewProps>
 {
 	public render = () =>
 	{

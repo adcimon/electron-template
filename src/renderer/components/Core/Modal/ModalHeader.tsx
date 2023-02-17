@@ -12,7 +12,7 @@ export class ModalHeader extends React.Component<IModalHeaderProps>
 		return (
 			<>
 				<div
-					className='mb-4 text-lg font-semibold text-base-300'>
+					className='flex items-center mb-4 text-lg font-semibold text-base-300'>
 					{this.props.children}
 				</div>
 			</>
