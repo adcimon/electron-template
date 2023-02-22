@@ -210,79 +210,7 @@ for color in palette:
 #--------------------------------------------------------------------------
 #
 
-background_classes = """/* Background */
-
-.bg-opacity-0 {
-	--bg-opacity: 0 !important;
-}
-
-.bg-opacity-5 {
-	--bg-opacity: 0.05 !important;
-}
-
-.bg-opacity-10 {
-	--bg-opacity: 0.1 !important;
-}
-
-.bg-opacity-20 {
-	--bg-opacity: 0.2 !important;
-}
-
-.bg-opacity-25 {
-	--bg-opacity: 0.25 !important;
-}
-
-.bg-opacity-30 {
-	--bg-opacity: 0.3 !important;
-}
-
-.bg-opacity-40 {
-	--bg-opacity: 0.4 !important;
-}
-
-.bg-opacity-50 {
-	--bg-opacity: 0.5 !important;
-}
-
-.bg-opacity-60 {
-	--bg-opacity: 0.6 !important;
-}
-
-.bg-opacity-70 {
-	--bg-opacity: 0.7 !important;
-}
-
-.bg-opacity-75 {
-	--bg-opacity: 0.75 !important;
-}
-
-.bg-opacity-80 {
-	--bg-opacity: 0.8 !important;
-}
-
-.bg-opacity-90 {
-	--bg-opacity: 0.9 !important;
-}
-
-.bg-opacity-95 {
-	--bg-opacity: 0.95 !important;
-}
-
-.bg-opacity-100 {
-	--bg-opacity: 1 !important;
-}
-
-.bg-white {
-	--bg-opacity: 1;
-	background-color: rgba(255, 255, 255, var(--bg-opacity));
-}
-
-.bg-black {
-	--bg-opacity: 1;
-	background-color: rgba(0, 0, 0, var(--bg-opacity));
-}
-"""
-f.write(background_classes)
+f.write("/* Background */\n")
 f.write("\n")
 
 for color in palette:
@@ -313,7 +241,7 @@ for color in palette:
 #--------------------------------------------------------------------------
 #
 
-f.write("/* Border */")
+f.write("/* Border */\n")
 f.write("\n")
 
 for color in palette:
