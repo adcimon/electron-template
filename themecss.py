@@ -272,74 +272,12 @@ for color in palette:
 #--------------------------------------------------------------------------
 #
 
-shadow_classes = """/* Shadow */
-
-.shadow-opacity-0 {
-	--shadow-opacity: 0 !important;
-}
-
-.shadow-opacity-5 {
-	--shadow-opacity: 0.05 !important;
-}
-
-.shadow-opacity-10 {
-	--shadow-opacity: 0.1 !important;
-}
-
-.shadow-opacity-20 {
-	--shadow-opacity: 0.2 !important;
-}
-
-.shadow-opacity-25 {
-	--shadow-opacity: 0.25 !important;
-}
-
-.shadow-opacity-30 {
-	--shadow-opacity: 0.3 !important;
-}
-
-.shadow-opacity-40 {
-	--shadow-opacity: 0.4 !important;
-}
-
-.shadow-opacity-50 {
-	--shadow-opacity: 0.5 !important;
-}
-
-.shadow-opacity-60 {
-	--shadow-opacity: 0.6 !important;
-}
-
-.shadow-opacity-70 {
-	--shadow-opacity: 0.7 !important;
-}
-
-.shadow-opacity-75 {
-	--shadow-opacity: 0.75 !important;
-}
-
-.shadow-opacity-80 {
-	--shadow-opacity: 0.8 !important;
-}
-
-.shadow-opacity-90 {
-	--shadow-opacity: 0.9 !important;
-}
-
-.shadow-opacity-95 {
-	--shadow-opacity: 0.95 !important;
-}
-
-.shadow-opacity-100 {
-	--shadow-opacity: 1 !important;
-}
-"""
-f.write(shadow_classes)
+f.write("/* Shadow */\n")
 f.write("\n")
 
 for color in palette:
 	for tint in palette[color]:
-		str = ".focus\:shadow-outline-{c}-{t}:focus {{\n\t--shadow-opacity: 0.5;\n\tbox-shadow: 0 0 0 3px rgba(var(--{c}-color-{t}), var(--shadow-opacity));\n}}\n\n"
+		str = ".focus\:shadow-{c}-{t}:focus {{\n\t--shadow-opacity: 0.5;\n\tbox-shadow: 0 0 0 3px rgba(var(--{c}-color-{t}), var(--shadow-opacity));\n}}\n\n"
 		str = str.format(c=color, t=tint)
 		f.write(str)
 
