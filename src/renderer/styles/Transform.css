@@ -6,6 +6,8 @@
 	--scale-y: 1;
 }
 
+/* Translate */
+
 .translate-x-0 {
 	--translate-x: 0px;
 	transform: translate(var(--translate-x), var(--translate-y)) rotate(var(--rotate)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
@@ -846,6 +848,8 @@
 	transform: translate(var(--translate-x), var(--translate-y)) rotate(var(--rotate)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
 }
 
+/* Rotate */
+
 .rotate-0 {
 	--rotate: 0deg;
 	transform: translate(var(--translate-x), var(--translate-y)) rotate(var(--rotate)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
@@ -935,6 +939,8 @@
 	--rotate: -180deg;
 	transform: translate(var(--translate-x), var(--translate-y)) rotate(var(--rotate)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
 }
+
+/* Scale */
 
 .scale-0 {
 	--scale-x: 0;
@@ -1256,6 +1262,8 @@
 	transform: translate(var(--translate-x), var(--translate-y)) rotate(var(--rotate)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
 }
 
+/* Transform */
+
 .transform {
 	transform: translate(var(--translate-x), var(--translate-y)) rotate(var(--rotate)) scaleX(var(--scale-x)) scaleY(var(--scale-y));
 }
@@ -1263,6 +1271,8 @@
 .transform-none {
 	transform: none;
 }
+
+/* Animation */
 
 .animate-none {
 	-webkit-animation: none;
