@@ -60,7 +60,7 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 						<div className='flex-1 h-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-xl bg-base-800 border-1 border-base-700'>
 							<div className='flex flex-col overflow-hidden md:flex-row'>
 
-								<div className='h-32 md:h-auto md:w-1/2'>
+								<div className='md:h-auto md:w-1/2'>
 									<img className='object-cover w-full h-full' src={image}/>
 								</div>
 
