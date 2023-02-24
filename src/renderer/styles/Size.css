@@ -825,3 +825,13 @@
 .max-w-screen-2xl {
 	max-width: 1536px;
 }
+
+/* Box */
+
+.box-border {
+	box-sizing: border-box;
+}
+
+.box-content {
+	box-sizing: content-box;
+}
