@@ -8,6 +8,7 @@
 @import "Shadow.css";
 @import "Transform.css";
 @import "Transition.css";
+@import "Utils.css";
 @import "Theme.css";
 
 html {
@@ -468,14 +469,6 @@ input::placeholder {
 	border-color: rgba(36, 38, 45, var(--divide-opacity));
 }
 
-.cursor-pointer {
-	cursor: pointer;
-}
-
-.cursor-not-allowed {
-	cursor: not-allowed;
-}
-
 .object-cover {
 	-o-object-fit: cover;
 	object-fit: cover;
@@ -529,10 +522,6 @@ input::placeholder {
 	overflow: hidden;
 }
 
-.pointer-events-none {
-	pointer-events: none;
-}
-
 .fill-current {
 	fill: currentColor;
 }
@@ -559,10 +548,6 @@ input::placeholder {
 
 .resize {
 	resize: both;
-}
-
-.select-none {
-	user-select: none;
 }
 
 @media (min-width:640px) {
