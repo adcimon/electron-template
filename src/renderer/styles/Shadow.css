@@ -30,6 +30,8 @@
 	box-shadow: none;
 }
 
+/* Opacity */
+
 .shadow-opacity-0 {
 	--shadow-opacity: 0 !important;
 }

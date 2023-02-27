@@ -1,3 +1,5 @@
+/* Color */
+
 .bg-inherit {
 	background-color: inherit;
 }
@@ -23,6 +25,8 @@
 	--bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
+
+/* Opacity */
 
 .bg-opacity-0 {
 	--bg-opacity: 0 !important;
@@ -82,4 +86,26 @@
 
 .bg-opacity-100 {
 	--bg-opacity: 1 !important;
+}
+
+/* Fill */
+
+.fill-inherit {
+	fill: inherit;
+}
+
+.fill-current {
+	fill: currentColor;
+}
+
+.fill-transparent {
+	fill: transparent;
+}
+
+.fill-black {
+	fill: black;
+}
+
+.fill-white {
+	fill: white;
 }
