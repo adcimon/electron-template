@@ -28,7 +28,7 @@ export class AppView extends React.Component<IAppViewProps>
 				case ViewType.SignUp: return <SignUpViewContainer/>;
 				case ViewType.RecoverPassword: return <RecoverPasswordViewContainer/>;
 				case ViewType.Main: return <MainViewContainer/>;
-				default: return <div>Error</div>
+				default: return <div>Error</div>;
 			}
 		}
 
