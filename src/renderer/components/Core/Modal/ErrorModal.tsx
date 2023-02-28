@@ -1,8 +1,8 @@
 import React from 'react';
-import { Modal } from '../Modal/Modal';
-import { ModalHeader } from '../Modal/ModalHeader';
-import { ModalBody } from '../Modal/ModalBody';
-import { ModalFooter } from '../Modal/ModalFooter';
+import { Modal } from './Modal';
+import { ModalHeader } from './ModalHeader';
+import { ModalBody } from './ModalBody';
+import { ModalFooter } from './ModalFooter';
 import { Button, ButtonVariant } from '../Button/Button';
 
 interface IErrorModalProps
