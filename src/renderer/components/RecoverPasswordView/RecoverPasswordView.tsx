@@ -44,7 +44,7 @@ export class RecoverPasswordView extends React.Component<IRecoverPasswordViewPro
 
 	handleExited = () =>
 	{
-		this.props.setAppState({...this.props.appState, activeView: ViewType.SignIn });
+		this.props.setAppState({ ...this.props.appState, activeView: ViewType.SignIn });
 	}
 
 	public render = () =>

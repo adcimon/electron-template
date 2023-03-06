@@ -45,7 +45,7 @@ export class SignUpView extends React.Component<ISignUpViewProps, ISignUpViewSta
 
 	handleExited = () =>
 	{
-		this.props.setAppState({...this.props.appState, activeView: ViewType.SignIn });
+		this.props.setAppState({ ...this.props.appState, activeView: ViewType.SignIn });
 	}
 
 	public render = () =>
