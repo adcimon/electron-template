@@ -26,7 +26,7 @@ export class SideBar extends React.Component<ISideBarProps>
 								Side Bar
 							</div>
 							<ul>
-								<li className='relative px-6 py-3'>
+								<li className='relative px-6 py-3 cursor-pointer'>
 									<a
 										className='inline-flex items-center w-full text-sm font-semibold hover:text-base-200 transition-colors duration-150'>
 										<svg

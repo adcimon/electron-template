@@ -50,15 +50,12 @@ export class MainView extends React.Component<IMainViewProps, IMainViewState>
 					classNames='fade'
 					onExited={() => this.handleExited()}>
 					<div
-						className='flex flex-col w-full h-screen'>
+						className='flex flex-col w-full h-full'>
+						<TopBarContainer></TopBarContainer>
 						<div
-							className='flex flex-col flex-1 w-full'>
-							<TopBarContainer></TopBarContainer>
-							<div
-								className='flex'>
-								<SideBarContainer></SideBarContainer>
-								<ContentViewContainer></ContentViewContainer>
-							</div>
+							className='flex flex-row w-full h-full'>
+							<SideBarContainer></SideBarContainer>
+							<ContentViewContainer></ContentViewContainer>
 						</div>
 					</div>
 				</CSSTransition>

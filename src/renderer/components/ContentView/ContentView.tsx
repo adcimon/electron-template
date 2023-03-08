@@ -17,16 +17,47 @@ export class ContentView extends React.Component<IContentViewProps>
 		return (
 			<>
 				<div
-					className='container mx-auto px-6'>
+					className='flex flex-col w-full h-full px-6 pb-32 gap-3 overflow-y-auto'>
 					<h1
 						className='my-6 text-2xl font-semibold text-base-200'>
 						Content
 					</h1>
-					<div>
-						<DataCard title='Data Card'>
-							666$
-						</DataCard>
-					</div>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
+					<DataCard title='Data Card'>
+						666$
+					</DataCard>
 				</div>
 			</>
 		);

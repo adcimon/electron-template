@@ -15,9 +15,13 @@ export class TopBar extends React.Component<ITopBarProps>
 	{
 		return (
 			<>
-				<header
-					className='h-16 z-10 py-4 bg-base-800 shadow-md'>
-				</header>
+				<div
+					className='basis-16 flex-shrink-0 z-10 py-4 bg-base-800 shadow-md'>
+					<span
+						className='ml-6 text-lg font-bold text-base-200'>
+						Electron Template
+					</span>
+				</div>
 			</>
 		);
 	}
